@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Leak\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Leak\\.nuget\\packages"
+    ]
+  }
+}

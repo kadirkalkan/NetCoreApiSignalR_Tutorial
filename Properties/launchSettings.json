@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51627",
+      "sslPort": 44346
+    }
+  },
+  // LaunchUrl ile Başlangıçta çalışacak Controller ismi belirlenir. profiles ve NetCoreSignalR ikisindede belirtmeyi unutmamak gerek.
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "message",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "NetCoreSignalR": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "message",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
